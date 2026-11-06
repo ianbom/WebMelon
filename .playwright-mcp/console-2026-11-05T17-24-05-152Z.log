@@ -1,0 +1,4 @@
+[      75ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8000/assets/js/main.js:0
+[     406ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8000/favicon.ico:0
+[   10688ms] [ASSERT] RED: menu enhancement is absent @ :0
+[   10688ms] [ASSERT] RED: gallery enhancement is absent @ :0

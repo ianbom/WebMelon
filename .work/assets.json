@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "inthanon-signature",
+    "source": ".work/pdf-7-189.jpeg",
+    "box": [
+      0,
+      620,
+      1024,
+      1215
+    ],
+    "path": "assets/images/products/inthanon-signature/utama-480.webp",
+    "width": 480,
+    "height": 279,
+    "bytes": 32032
+  },
+  {
+    "slug": "inthanon-signature",
+    "source": ".work/pdf-7-189.jpeg",
+    "box": [
+      0,
+      620,
+      1024,
+      1215
+    ],
+    "path": "assets/images/products/inthanon-signature/utama-800.webp",
+    "width": 800,
+    "height": 465,
+    "bytes": 75096
+  },
+  {
+    "slug": "dalmation",
+    "source": "Product/Dalmation/3.png",
+    "box": [
+      0,
+      870,
+      941,
+      1290
+    ],
+    "path": "assets/images/products/dalmation/utama-480.webp",
+    "width": 480,
+    "height": 214,
+    "bytes": 21068
+  },
+  {
+    "slug": "dalmation",
+    "source": "Product/Dalmation/3.png",
+    "box": [
+      0,
+      870,
+      941,
+      1290
+    ],
+    "path": "assets/images/products/dalmation/utama-800.webp",
+    "width": 800,
+    "height": 357,
+    "bytes": 48364
+  },
+  {
+    "slug": "dalmation",
+    "source": "Product/Dalmation/2.png",
+    "box": [
+      460,
+      790,
+      930,
+      1460
+    ],
+    "path": "assets/images/products/dalmation/detail-1-470.webp",
+    "width": 470,
+    "height": 670,
+    "bytes": 46384
+  },
+  {
+    "slug": "hamiqua",
+    "source": "Product/Hamiqua/3.png",
+    "box": [
+      0,
+      1000,
+      941,
+      1600
+    ],
+    "path": "assets/images/products/hamiqua/utama-480.webp",
+    "width": 480,
+    "height": 306,
+    "bytes": 50562
+  },
+  {
+    "slug": "hamiqua",
+    "source": "Product/Hamiqua/3.png",
+    "box": [
+      0,
+      1000,
+      941,
+      1600
+    ],
+    "path": "assets/images/products/hamiqua/utama-800.webp",
+    "width": 800,
+    "height": 510,
+    "bytes": 116566
+  },
+  {
+    "slug": "hamiqua",
+    "source": "Product/Hamiqua/2.png",
+    "box": [
+      215,
+      1125,
+      930,
+      1455
+    ],
+    "path": "assets/images/products/hamiqua/detail-1-480.webp",
+    "width": 480,
+    "height": 222,
+    "bytes": 25038
+  },
+  {
+    "slug": "hamiqua",
+    "source": "Product/Hamiqua/2.png",
+    "box": [
+      215,
+      1125,
+      930,
+      1455
+    ],
+    "path": "assets/images/products/hamiqua/detail-1-715.webp",
+    "width": 715,
+    "height": 330,
+    "bytes": 49536
+  },
+  {
+    "slug": "rock-melon",
+    "source": "Product/Rock Melon/4.png",
+    "box": [
+      0,
+      1080,
+      941,
+      1580
+    ],
+    "path": "assets/images/products/rock-melon/utama-480.webp",
+    "width": 480,
+    "height": 255,
+    "bytes": 40788
+  },
+  {
+    "slug": "rock-melon",
+    "source": "Product/Rock Melon/4.png",
+    "box": [
+      0,
+      1080,
+      941,
+      1580
+    ],
+    "path": "assets/images/products/rock-melon/utama-800.webp",
+    "width": 800,
+    "height": 425,
+    "bytes": 97614
+  },
+  {
+    "slug": "rock-melon",
+    "source": "Product/Rock Melon/6.png",
+    "box": [
+      510,
+      800,
+      930,
+      1460
+    ],
+    "path": "assets/images/products/rock-melon/detail-1-420.webp",
+    "width": 420,
+    "height": 660,
+    "bytes": 74148
+  },
+  {
+    "slug": "sweet-hamy",
+    "source": "Product/Sweet Hamy/4.png",
+    "box": [
+      0,
+      1000,
+      941,
+      1610
+    ],
+    "path": "assets/images/products/sweet-hamy/utama-480.webp",
+    "width": 480,
+    "height": 311,
+    "bytes": 48786
+  },
+  {
+    "slug": "sweet-hamy",
+    "source": "Product/Sweet Hamy/4.png",
+    "box": [
+      0,
+      1000,
+      941,
+      1610
+    ],
+    "path": "assets/images/products/sweet-hamy/utama-800.webp",
+    "width": 800,
+    "height": 519,
+    "bytes": 113970
+  },
+  {
+    "slug": "sweet-hamy",
+    "source": "Product/Sweet Hamy/3.png",
+    "box": [
+      505,
+      900,
+      930,
+      1490
+    ],
+    "path": "assets/images/products/sweet-hamy/detail-1-425.webp",
+    "width": 425,
+    "height": 590,
+    "bytes": 102696
+  },
+  {
+    "slug": "sweet-lavender",
+    "source": "Product/Sweet Lavender/5.png",
+    "box": [
+      480,
+      930,
+      941,
+      1510
+    ],
+    "path": "assets/images/products/sweet-lavender/utama-461.webp",
+    "width": 461,
+    "height": 580,
+    "bytes": 94456
+  },
+  {
+    "slug": "sweet-lavender",
+    "source": "Product/Sweet Lavender/6.png",
+    "box": [
+      0,
+      1090,
+      941,
+      1600
+    ],
+    "path": "assets/images/products/sweet-lavender/detail-1-480.webp",
+    "width": 480,
+    "height": 260,
+    "bytes": 40084
+  },
+  {
+    "slug": "sweet-lavender",
+    "source": "Product/Sweet Lavender/6.png",
+    "box": [
+      0,
+      1090,
+      941,
+      1600
+    ],
+    "path": "assets/images/products/sweet-lavender/detail-1-800.webp",
+    "width": 800,
+    "height": 434,
+    "bytes": 91236
+  }
+]

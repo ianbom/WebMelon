@@ -1,0 +1,112 @@
+- generic [active] [ref=f2e1]:
+  - link "Lewati ke konten utama" [ref=f2e2] [cursor=pointer]:
+    - /url: "#konten-utama"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "Green House Indonesia — Beranda" [ref=f2e5] [cursor=pointer]:
+        - /url: ../index.html#beranda
+        - generic [ref=f2e6]: ghi
+        - generic [ref=f2e7]:
+          - text: Green House Indonesia
+          - generic [ref=f2e8]: PT GHI Makmur Indonesia
+      - navigation "Navigasi utama" [ref=f2e9]:
+        - link "Tentang" [ref=f2e10] [cursor=pointer]:
+          - /url: ../index.html#tentang
+        - link "Produk" [ref=f2e11] [cursor=pointer]:
+          - /url: ../index.html#produk
+        - link "Layanan" [ref=f2e12] [cursor=pointer]:
+          - /url: ../index.html#layanan
+        - link "Kemitraan" [ref=f2e13] [cursor=pointer]:
+          - /url: ../index.html#kemitraan
+        - link "Hubungi Kami" [ref=f2e14] [cursor=pointer]:
+          - /url: ../index.html#kontak
+          - text: Hubungi Kami
+          - generic [aria-hidden] [ref=f2e15]: ↗
+  - main [ref=f2e16]:
+    - generic [ref=f2e17]:
+      - navigation "Breadcrumb" [ref=f2e18]:
+        - link "Beranda" [ref=f2e19] [cursor=pointer]:
+          - /url: ../index.html#beranda
+        - generic [aria-hidden] [ref=f2e20]: /
+        - link "Produk" [ref=f2e21] [cursor=pointer]:
+          - /url: ../index.html#produk
+        - generic [aria-hidden] [ref=f2e22]: /
+        - generic [ref=f2e23]: Dalmation
+      - generic [ref=f2e24]:
+        - generic [ref=f2e26]:
+          - figure [ref=f2e27]:
+            - img "Belahan dan irisan melon Dalmation berdaging krem" [ref=f2e28]
+          - figure [ref=f2e29]:
+            - 'img "Foto tambahan Dalmation: buah utuh tanpa potongan" [ref=f2e30]'
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]: GHI MELON
+          - heading "Dalmation" [level=1] [ref=f2e33]
+          - paragraph [ref=f2e34]: Kenali Dalmation, salah satu dari enam varietas dalam pilihan produk GHI MELON.
+          - link "Tanyakan Produk" [ref=f2e35] [cursor=pointer]:
+            - /url: https://wa.me/6285284992841?text=Halo%20GHI%20MELON%2C%20saya%20ingin%20menanyakan%20produk%20Dalmation.
+            - text: Tanyakan Produk
+            - generic [aria-hidden] [ref=f2e36]: ↗
+          - generic [ref=f2e37]:
+            - strong [ref=f2e38]: Mari bicarakan kebutuhan Anda.
+            - paragraph [ref=f2e39]: Untuk informasi produk, kebutuhan volume, jadwal, serta ketentuan pembelian, hubungi tim kami melalui WhatsApp.
+    - generic [ref=f2e41]:
+      - generic [ref=f2e42]:
+        - heading "Kenali varietas lainnya." [level=2] [ref=f2e43]
+        - link "Kembali ke katalog" [ref=f2e44] [cursor=pointer]:
+          - /url: ../index.html#produk
+          - text: Kembali ke katalog
+          - generic [aria-hidden] [ref=f2e45]: ↗
+      - generic [ref=f2e46]:
+        - link [ref=f2e47] [cursor=pointer]:
+          - /url: hamiqua.html
+          - img "Irisan melon Hamiqua berdaging oranye di atas alas kayu" [ref=f2e48]
+          - heading "Hamiqua" [level=3] [ref=f2e49]:
+            - text: Hamiqua
+            - generic [aria-hidden] [ref=f2e50]: ↗
+        - link [ref=f2e51] [cursor=pointer]:
+          - /url: rock-melon.html
+          - img "Irisan Rock Melon berdaging oranye dengan kulit berjala" [ref=f2e52]
+          - heading "Rock Melon" [level=3] [ref=f2e53]:
+            - text: Rock Melon
+            - generic [aria-hidden] [ref=f2e54]: ↗
+        - link [ref=f2e55] [cursor=pointer]:
+          - /url: sweet-hamy.html
+          - img "Belahan dan irisan Sweet Hamy di dekat jendela" [ref=f2e56]
+          - heading "Sweet Hamy" [level=3] [ref=f2e57]:
+            - text: Sweet Hamy
+            - generic [aria-hidden] [ref=f2e58]: ↗
+    - generic [ref=f2e60]:
+      - heading "Ingin menjajaki kerja sama?" [level=2] [ref=f2e61]
+      - link "Diskusikan Kemitraan" [ref=f2e62] [cursor=pointer]:
+        - /url: https://wa.me/6285284992841?text=Halo%20Green%20House%20Indonesia%2C%20saya%20ingin%20berdiskusi%20mengenai%20peluang%20kemitraan.
+        - text: Diskusikan Kemitraan
+        - generic [aria-hidden] [ref=f2e63]: ↗
+  - contentinfo [ref=f2e64]:
+    - generic [ref=f2e65]:
+      - generic [ref=f2e66]:
+        - generic [ref=f2e67]:
+          - generic [ref=f2e68]: Green House IndonesiaGHI MELON
+          - paragraph [ref=f2e69]: PT GHI Makmur IndonesiaAgribisnis melon hidroponik terintegrasi.
+          - paragraph [ref=f2e70]: NIB 1009260116962
+        - generic [ref=f2e71]:
+          - heading "Jelajahi" [level=2] [ref=f2e72]
+          - navigation "Navigasi footer" [ref=f2e73]:
+            - link "Tentang perusahaan" [ref=f2e74] [cursor=pointer]:
+              - /url: ../index.html#tentang
+            - link "Pilihan produk" [ref=f2e75] [cursor=pointer]:
+              - /url: ../index.html#produk
+            - link "Layanan greenhouse" [ref=f2e76] [cursor=pointer]:
+              - /url: ../index.html#layanan
+            - link "Peluang kemitraan" [ref=f2e77] [cursor=pointer]:
+              - /url: ../index.html#kemitraan
+        - generic [ref=f2e78]:
+          - heading "Hubungi kami" [level=2] [ref=f2e79]
+          - generic [ref=f2e80]:
+            - link "0813-9875-9898" [ref=f2e81] [cursor=pointer]:
+              - /url: tel:+6281398759898
+            - 'link "WhatsApp: 0852-8499-2841" [ref=f2e82] [cursor=pointer]':
+              - /url: https://wa.me/6285284992841
+          - paragraph [ref=f2e83]: Alamat KantorVIP Office, AD Premier Lantai 5 Suite 6, Jalan TB Simatupang No. 5, Ragunan, Pasar Minggu, Jakarta Selatan 12550
+      - generic [ref=f2e84]:
+        - generic [ref=f2e85]: © 2026 PT GHI Makmur Indonesia.
+        - generic [ref=f2e86]: Greenhouse, budidaya, dan kemitraan.

@@ -1,0 +1,499 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: ./
+          - paragraph [ref=e13]: Solune
+        - generic [ref=e14] [cursor=pointer]
+    - generic [ref=e17]:
+      - main [ref=e18]:
+        - generic [ref=e19]:
+          - img "person standing on green grass field near body of water during daytime" [ref=e21]
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]:
+                - paragraph [ref=e31]: Guided by certified instructors
+                - heading "Find balance in your body and mind." [level=1] [ref=e33]
+              - paragraph [ref=e36]: Yoga classes, private sessions and mindful practices designed for a balanced and perfect life.
+            - link [ref=e39] [cursor=pointer]:
+              - /url: ./contact
+              - paragraph [ref=e42]: Book a Call
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - paragraph [ref=e56]: About
+          - heading "At Solune, we believe wellness is not about perfection. It’s about consistency, presence, and balance." [level=2] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: 0+
+            - paragraph [ref=e69]: Students joined
+          - generic [ref=e74]:
+            - generic [ref=e75]: 0+
+            - paragraph [ref=e78]: Certified instructors
+          - generic [ref=e83]:
+            - generic [ref=e84]: "0"
+            - paragraph [ref=e87]: Average rating
+        - generic [ref=e90] [cursor=pointer]
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - paragraph [ref=e103]: Programs
+          - heading "Find the right class for you." [level=2] [ref=e107]
+          - paragraph [ref=e110]: From beginner sessions to advanced flows, explore classes designed for every level.
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - link [ref=e113] [cursor=pointer]:
+              - /url: ./program/breathwork-session
+              - generic [ref=e116]:
+                - img "person standing on rock formation surrounded by body of water" [ref=e120]
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - paragraph [ref=e126]: Popular
+                    - generic [ref=e127]:
+                      - heading "Breathwork Session" [level=4] [ref=e129]
+                      - paragraph [ref=e131]: Learn practical breathing techniques for calm.
+                  - generic [ref=e132]:
+                    - paragraph [ref=e136]: 40 min
+                    - paragraph [ref=e140]: All levels
+            - link [ref=e141] [cursor=pointer]:
+              - /url: ./program/beginner-flow
+              - generic [ref=e144]:
+                - img "Woman practicing yoga tree pose on a tropical beach." [ref=e148]
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - paragraph [ref=e154]: Popular
+                    - generic [ref=e155]:
+                      - heading "Beginner Flow" [level=4] [ref=e157]
+                      - paragraph [ref=e159]: Breath is your most accessible and important tool for calm.
+                  - generic [ref=e160]:
+                    - paragraph [ref=e164]: 45 min
+                    - paragraph [ref=e168]: All levels
+          - generic [ref=e169]:
+            - link [ref=e170] [cursor=pointer]:
+              - /url: ./program/evening-relax-flow
+              - generic [ref=e173]:
+                - img "woman wearing black shirt sitting on green yoga mat" [ref=e177]
+                - generic [ref=e178]:
+                  - generic [ref=e180]:
+                    - heading "Evening Relax Flow" [level=4] [ref=e182]
+                    - paragraph [ref=e184]: A slow, restorative class designed to help you unwind and relax.
+                  - generic [ref=e185]:
+                    - paragraph [ref=e189]: 45 min
+                    - paragraph [ref=e193]: Medium
+            - link [ref=e194] [cursor=pointer]:
+              - /url: ./program/mindful-meditation
+              - generic [ref=e197]:
+                - img "woman stretching on mountain top during sunrise" [ref=e201]
+                - generic [ref=e202]:
+                  - generic [ref=e204]:
+                    - heading "Mindful Meditation" [level=4] [ref=e206]
+                    - paragraph [ref=e208]: A calming session focused on breath awareness and mental clarity.
+                  - generic [ref=e209]:
+                    - paragraph [ref=e213]: 30 min
+                    - paragraph [ref=e217]: Easy
+            - link [ref=e218] [cursor=pointer]:
+              - /url: ./program/power-yoga
+              - generic [ref=e221]:
+                - img "Man practicing yoga on a mat indoors." [ref=e225]
+                - generic [ref=e226]:
+                  - generic [ref=e228]:
+                    - heading "Power Yoga" [level=4] [ref=e230]
+                    - paragraph [ref=e232]: A high-energy class always focused on strength and endurance.
+                  - generic [ref=e233]:
+                    - paragraph [ref=e237]: 60 min
+                    - paragraph [ref=e241]: Hard
+      - generic [ref=e243]:
+        - generic [ref=e246]:
+          - paragraph [ref=e252]: Schedule
+          - heading "Find a perfect time that fits your routine." [level=2] [ref=e255]
+          - paragraph [ref=e258]: Explore our weekly classes and choose a session that works best for your schedule.
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - heading "Monday" [level=6] [ref=e266] [cursor=pointer]
+            - heading "Tuesday" [level=6] [ref=e270] [cursor=pointer]
+            - heading "Wednesday" [level=6] [ref=e274] [cursor=pointer]
+            - heading "Thursday" [level=6] [ref=e278] [cursor=pointer]
+            - heading "Friday" [level=6] [ref=e282] [cursor=pointer]
+          - generic [ref=e283]:
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - heading "07:00" [level=6] [ref=e291]
+                - generic [ref=e292]:
+                  - heading "Morning Flow" [level=5] [ref=e294]
+                  - paragraph [ref=e296]: Start your day with gentle movement and breath to build energy and focus.
+              - generic [ref=e297]:
+                - paragraph [ref=e301]: 60 min
+                - paragraph [ref=e305]: Intermediate
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - heading "12:00" [level=6] [ref=e313]
+                - generic [ref=e314]:
+                  - heading "Midday Stretch" [level=5] [ref=e316]
+                  - paragraph [ref=e318]: A light session to release tension and reset your body during the day.
+              - generic [ref=e319]:
+                - paragraph [ref=e323]: 45 min
+                - paragraph [ref=e327]: Intermediate
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - heading "18:00" [level=6] [ref=e335]
+                - generic [ref=e336]:
+                  - heading "Power Yoga" [level=5] [ref=e338]
+                  - paragraph [ref=e340]: A more dynamic class to build strength, improve flexibility, and unwind.
+              - generic [ref=e341]:
+                - paragraph [ref=e345]: 60 min
+                - paragraph [ref=e349]: Intermediate
+      - generic [ref=e351]:
+        - generic [ref=e354]:
+          - paragraph [ref=e360]: Our Space
+          - heading "Built for your everyday practice session" [level=2] [ref=e363]
+          - paragraph [ref=e366]: Simple, guided sessions in a calm environment, helping you stay consistent.
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - generic:
+              - img "Wellness Image 4"
+            - generic:
+              - img "Wellness Image 5"
+            - generic [ref=e371]:
+              - img "Wellness Image 1"
+            - generic:
+              - img "Wellness Image 2"
+            - generic:
+              - img "Wellness Image 3"
+          - generic [ref=e372]:
+            - button "Go to image 1" [ref=e373] [cursor=pointer]
+            - button "Go to image 2" [ref=e374] [cursor=pointer]
+            - button "Go to image 3" [ref=e375] [cursor=pointer]
+            - button "Go to image 4" [ref=e376] [cursor=pointer]
+            - button "Go to image 5" [ref=e377] [cursor=pointer]
+      - generic [ref=e382]:
+        - generic [ref=e385]:
+          - paragraph [ref=e391]: Our Instructors
+          - heading "Guided by people who truly care about you." [level=2] [ref=e394]
+          - paragraph [ref=e397]: Our instructors bring experience, patience, and a thoughtful approach to every session.
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - generic [ref=e404]:
+              - img "woman in black panty kneeling on floor" [ref=e407]
+              - paragraph [ref=e411]: 6+ years experience
+              - generic [ref=e413]:
+                - heading "Marcus Lee" [level=4] [ref=e415]
+                - paragraph [ref=e417]: Breathwork Specialist
+            - generic [ref=e422]:
+              - img "woman in white sports bra and black and gray camouflage pants sitting on gray yoga mat" [ref=e425]
+              - paragraph [ref=e429]: 5+ years experience
+              - generic [ref=e431]:
+                - heading "Lina Park" [level=4] [ref=e433]
+                - paragraph [ref=e435]: Vinyasa Instructor
+            - generic [ref=e440]:
+              - img "a man sitting in a yoga position in a field" [ref=e443]
+              - paragraph [ref=e447]: 7+ years experience
+              - generic [ref=e449]:
+                - heading "Daniel Reed" [level=4] [ref=e451]
+                - paragraph [ref=e453]: Mobility & Strength Coach
+          - link [ref=e457] [cursor=pointer]:
+            - /url: ./instructors
+            - paragraph [ref=e460]: View All
+      - generic [ref=e467]:
+        - generic [ref=e468]:
+          - generic [ref=e471]:
+            - paragraph [ref=e477]: Private Sessions
+            - heading "A practice that fits into your life effortlessly." [level=2] [ref=e481]
+            - paragraph [ref=e484]: More than movement. A space to reset, reconnect and grow.
+          - generic [ref=e485]:
+            - group [ref=e487]:
+              - listitem [ref=e488]:
+                - generic [ref=e496]:
+                  - heading "Move at your own pace" [level=4] [ref=e498]
+                  - paragraph [ref=e500]: Whether you're starting fresh or returning to your routine.
+              - listitem [ref=e501]:
+                - generic [ref=e509]:
+                  - heading "Consistency over intensity" [level=4] [ref=e511]
+                  - paragraph [ref=e513]: Build a practice you can actually maintain throughout the year.
+              - listitem [ref=e514]:
+                - generic [ref=e522]:
+                  - heading "Guided with intention" [level=4] [ref=e524]
+                  - paragraph [ref=e526]: Every session is led with care, helping you stay supported, focused.
+            - group [ref=e529]:
+              - listitem [ref=e530]:
+                - generic [ref=e537]:
+                  - heading "A space to disconnect" [level=4] [ref=e539]
+                  - paragraph [ref=e541]: Step away from daily noise and give yourself time to reset, breathe.
+              - listitem [ref=e542]:
+                - generic [ref=e549]:
+                  - heading "Stronger body, calmer mind" [level=4] [ref=e551]
+                  - paragraph [ref=e553]: Improve flexibility, balance, and strength while reducing stress.
+              - listitem [ref=e554]:
+                - generic [ref=e561]:
+                  - heading "Built around your routine" [level=4] [ref=e563]
+                  - paragraph [ref=e565]: Flexible sessions designed to fit into your day without overwhelming your schedule.
+        - generic [ref=e566]:
+          - generic [ref=e569]:
+            - paragraph [ref=e575]: Pricing
+            - heading "Choose a plan that will fit your routine." [level=2] [ref=e578]
+            - paragraph [ref=e581]: Flexible and efficient options designed to support your practice.
+          - generic [ref=e582]:
+            - generic [ref=e585]:
+              - generic [ref=e586]:
+                - heading "Single Class" [level=5] [ref=e588]
+                - paragraph [ref=e590]: Perfect if you want flexibility.
+              - generic [ref=e591]:
+                - heading "$12" [level=3] [ref=e593]
+                - paragraph [ref=e595]: per Session
+              - link [ref=e597] [cursor=pointer]:
+                - /url: ./contact
+                - paragraph [ref=e600]: Book a Class
+              - generic [ref=e605]:
+                - paragraph [ref=e607]: Includes
+                - paragraph [ref=e612]: Access to any class
+                - paragraph [ref=e617]: No membership required
+                - paragraph [ref=e622]: Any time cancellation
+            - generic [ref=e625]:
+              - generic [ref=e626]:
+                - heading "Monthly Membership" [level=5] [ref=e628]
+                - paragraph [ref=e630]: Best for building a consistent practice.
+              - generic [ref=e631]:
+                - heading "$59" [level=3] [ref=e633]
+                - paragraph [ref=e635]: per Month
+              - link [ref=e637] [cursor=pointer]:
+                - /url: ./contact
+                - paragraph [ref=e640]: Book a Class
+              - generic [ref=e645]:
+                - paragraph [ref=e647]: Includes
+                - paragraph [ref=e652]: Unlimited group classes
+                - paragraph [ref=e657]: Priority booking
+                - paragraph [ref=e662]: Access to all programs
+              - paragraph [ref=e665]: Popular
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - heading "Private Session" [level=5] [ref=e671]
+                - paragraph [ref=e673]: Personalized guidance tailored to your goals.
+              - generic [ref=e674]:
+                - heading "$80" [level=3] [ref=e676]
+                - paragraph [ref=e678]: per Session
+              - link [ref=e680] [cursor=pointer]:
+                - /url: ./contact
+                - paragraph [ref=e683]: Book a Class
+              - generic [ref=e688]:
+                - paragraph [ref=e690]: Includes
+                - paragraph [ref=e695]: 1-on-1 coaching
+                - paragraph [ref=e700]: Custom session plan
+                - paragraph [ref=e705]: Flexible scheduling
+      - generic [ref=e709]:
+        - generic [ref=e712]:
+          - paragraph [ref=e717]: Testimonial
+          - heading "What our active members are saying." [level=2] [ref=e720]
+          - paragraph [ref=e722]: Real experiences from people who have made Solune part of their routine.
+        - generic [ref=e723]:
+          - generic [ref=e725]:
+            - heading "Rated 4.9 out of 5 by 1,200+ active members" [level=5] [ref=e730]
+            - generic [ref=e734]:
+              - generic [ref=e735]:
+                - img "man smiling inside building" [ref=e738]
+                - generic [ref=e739]:
+                  - paragraph [ref=e741]: Jacky
+                  - paragraph [ref=e743]: Member for 2 months
+              - heading "“I didn’t expect such a noticeable difference. My flexibility and energy have improved more than I thought possible.”" [level=6] [ref=e752]
+          - group [ref=e755]:
+            - listitem [ref=e756]:
+              - generic [ref=e758]:
+                - generic [ref=e759]:
+                  - img "men's gray crew-neck shirt" [ref=e762]
+                  - generic [ref=e763]:
+                    - paragraph [ref=e765]: Orin
+                    - paragraph [ref=e767]: Member for 6 months
+                - heading "“I started as a complete beginner and was honestly nervous. But the sessions are so welcoming, it never feels intimidating.”" [level=6] [ref=e776]
+            - listitem [ref=e777]:
+              - generic [ref=e779]:
+                - generic [ref=e780]:
+                  - img "man in teal crew neck shirt wearing black framed eyeglasses" [ref=e783]
+                  - generic [ref=e784]:
+                    - paragraph [ref=e786]: Jack
+                    - paragraph [ref=e788]: Member for 1 year
+                - heading "“The private sessions helped me understand my body better. It finally feels like I have a routine that actually works for me.”" [level=6] [ref=e797]
+          - generic [ref=e799]:
+            - generic [ref=e801]:
+              - generic [ref=e802]:
+                - img "man in white crew neck shirt" [ref=e805]
+                - generic [ref=e806]:
+                  - paragraph [ref=e808]: Raihan
+                  - paragraph [ref=e810]: Pro Membership
+              - heading "“Solune has become part of my weekly routine. I feel calmer, more focused, and physically stronger — without feeling overwhelmed.”" [level=6] [ref=e819]
+            - generic [ref=e821]:
+              - link [ref=e823] [cursor=pointer]:
+                - /url: ./contact
+                - paragraph [ref=e826]: Book a Class
+              - heading "Ready to experience a session for yourself?" [level=5] [ref=e832]
+      - generic [ref=e838]:
+        - generic [ref=e841]:
+          - paragraph [ref=e846]: Journal
+          - heading "Simple insights for a more balanced life." [level=2] [ref=e849]
+          - paragraph [ref=e851]: Practical tips, routines, and ideas to help you stay consistent with your practice.
+        - generic [ref=e852]:
+          - link [ref=e853] [cursor=pointer]:
+            - /url: ./journal/morning-vs-evening-yoga-what-will-work-best-for-your-life
+            - generic [ref=e855]:
+              - img "3 women doing yoga on blue yoga mat" [ref=e858]
+              - generic [ref=e859]:
+                - generic [ref=e860]:
+                  - img "man wearing black notched lapel suit jacket" [ref=e863]
+                  - paragraph [ref=e865]: Karim P.
+                - generic [ref=e866]:
+                  - 'heading "Morning vs evening yoga: what will work best for your life?" [level=4] [ref=e868]'
+                  - paragraph [ref=e870]: Building a lasting yoga practice isn’t about pushing harder.
+                - generic [ref=e871]:
+                  - paragraph [ref=e875]: Yoga
+                  - paragraph [ref=e879]: 5 min read
+          - link [ref=e880] [cursor=pointer]:
+            - /url: ./journal/the-benefits-of-slow-yoga-you-might-be-overlooking-at-this-moment
+            - generic [ref=e882]:
+              - img "woman in black tank top sitting on green grass field during daytime" [ref=e885]
+              - generic [ref=e886]:
+                - generic [ref=e887]:
+                  - img "man standing in front of window" [ref=e890]
+                  - paragraph [ref=e892]: Ajoy S.
+                - generic [ref=e893]:
+                  - heading "The benefits of slow yoga you might be overlooking at this moment" [level=4] [ref=e895]
+                  - paragraph [ref=e897]: Slow yoga isn’t about doing less, it’s all about consistency.
+                - generic [ref=e898]:
+                  - paragraph [ref=e902]: Yoga
+                  - paragraph [ref=e906]: 5 min read
+          - link [ref=e907] [cursor=pointer]:
+            - /url: ./journal/why-consistency-matters-more-than-intensity-in-yoga-copy
+            - generic [ref=e909]:
+              - img "Man meditating on yoga mat recording with phone." [ref=e912]
+              - generic [ref=e913]:
+                - generic [ref=e914]:
+                  - img "man in black crew neck shirt" [ref=e917]
+                  - paragraph [ref=e919]: Shian D.
+                - generic [ref=e920]:
+                  - heading "How to build a yoga routine you can actually stick to for a long time" [level=4] [ref=e922]
+                  - paragraph [ref=e924]: A lasting yoga practice isn’t built through motivation alone.
+                - generic [ref=e925]:
+                  - paragraph [ref=e929]: Yoga
+                  - paragraph [ref=e933]: 5 min read
+          - link [ref=e934] [cursor=pointer]:
+            - /url: ./journal/why-consistency-matters-more-than-intensity-in-yoga-journey
+            - generic [ref=e936]:
+              - img "a woman sitting on a mat outside" [ref=e939]
+              - generic [ref=e940]:
+                - generic [ref=e941]:
+                  - img "man wearing green crew-neck top and eyeglasses with black frames looking at side" [ref=e944]
+                  - paragraph [ref=e946]: Jack S.
+                - generic [ref=e947]:
+                  - heading "Why consistency matters more than intensity in yoga journey" [level=4] [ref=e949]
+                  - paragraph [ref=e951]: Real progress in yoga comes from steady practice over time.
+                - generic [ref=e952]:
+                  - paragraph [ref=e956]: Yoga
+                  - paragraph [ref=e960]: 5 min read
+        - link [ref=e963] [cursor=pointer]:
+          - /url: ./journal
+          - paragraph [ref=e966]: View all journals
+      - generic [ref=e973]:
+        - generic [ref=e976]:
+          - paragraph [ref=e981]: FAQ
+          - heading "Everything you need to know before you start." [level=2] [ref=e984]:
+            - generic [ref=e985]: Everything
+            - generic [ref=e986]: you
+            - generic [ref=e987]: need
+            - generic [ref=e988]: to
+            - generic [ref=e989]: know
+            - generic [ref=e990]: before
+            - generic [ref=e991]: you
+            - generic [ref=e992]: start.
+          - paragraph [ref=e994]: Still have questions? Here are answers to the most common ones.
+        - generic [ref=e997]:
+          - generic [ref=e999] [cursor=pointer]
+          - generic [ref=e1006]:
+            - generic [ref=e1008] [cursor=pointer]:
+              - heading "Do I need experience to join?" [level=5] [ref=e1011]
+              - paragraph [ref=e1016]: Not at all. Our classes are beginner-friendly and designed to support you at any level.
+            - heading "What should I bring to class?" [level=5] [ref=e1021] [cursor=pointer]
+            - heading "Can I try a class before committing?" [level=5] [ref=e1027] [cursor=pointer]
+            - heading "How do I book a session?" [level=5] [ref=e1033] [cursor=pointer]
+            - heading "Do you offer private sessions?" [level=5] [ref=e1039] [cursor=pointer]
+    - contentinfo [ref=e1044]:
+      - generic [ref=e1045]:
+        - generic [ref=e1047]:
+          - generic [ref=e1048]:
+            - heading "Stay connected with your yoga practice." [level=2] [ref=e1051]:
+              - generic [ref=e1052]: Stay
+              - generic [ref=e1053]: connected
+              - generic [ref=e1054]: with
+              - generic [ref=e1055]: your
+              - generic [ref=e1056]: yoga
+              - generic [ref=e1057]: practice.
+            - paragraph [ref=e1059]: Get weekly tips, simple routines, and updates on new classes, designed to help you stay consistent and feel your best.
+          - generic [ref=e1060]:
+            - textbox [ref=e1063]:
+              - /placeholder: jane@framer.com
+            - button [ref=e1065] [cursor=pointer]:
+              - paragraph [ref=e1068]: Subscribe
+        - generic [ref=e1074]:
+          - generic [ref=e1076]:
+            - generic [ref=e1077]:
+              - generic [ref=e1078]:
+                - link [ref=e1080] [cursor=pointer]:
+                  - /url: ./
+                  - paragraph [ref=e1084]: Solune
+                - paragraph [ref=e1086]: A space for mindful movement, balance, and everyday wellbeing.
+              - generic [ref=e1087]:
+                - link [ref=e1088] [cursor=pointer]:
+                  - /url: https://x.com
+                - link [ref=e1090] [cursor=pointer]:
+                  - /url: https://linkedin.com
+            - generic [ref=e1092]:
+              - heading "Company" [level=5] [ref=e1094]
+              - list [ref=e1095]:
+                - listitem [ref=e1096]:
+                  - paragraph [ref=e1099]:
+                    - link "Home" [ref=e1100] [cursor=pointer]:
+                      - /url: ./
+                - listitem [ref=e1101]:
+                  - paragraph [ref=e1104]:
+                    - link "Programs" [ref=e1105] [cursor=pointer]:
+                      - /url: ./program
+                - listitem [ref=e1106]:
+                  - paragraph [ref=e1109]:
+                    - link "Journal" [ref=e1110] [cursor=pointer]:
+                      - /url: ./journal
+                - listitem [ref=e1111]:
+                  - paragraph [ref=e1114]:
+                    - link "Instructors" [ref=e1115] [cursor=pointer]:
+                      - /url: ./instructors
+                - listitem [ref=e1116]:
+                  - paragraph [ref=e1119]:
+                    - link "Contact" [ref=e1120] [cursor=pointer]:
+                      - /url: ./contact
+            - generic [ref=e1121]:
+              - heading "Legal" [level=5] [ref=e1123]
+              - list [ref=e1124]:
+                - listitem [ref=e1125]:
+                  - paragraph [ref=e1128]:
+                    - link "Privacy Policy" [ref=e1129] [cursor=pointer]:
+                      - /url: ./legal/privacy-policy
+                - listitem [ref=e1130]:
+                  - paragraph [ref=e1133]:
+                    - link "Terms & Conditions" [ref=e1134] [cursor=pointer]:
+                      - /url: ./legal/terms-conditions
+                - listitem [ref=e1135]:
+                  - paragraph [ref=e1138]:
+                    - link "Refund Policy" [ref=e1139] [cursor=pointer]:
+                      - /url: ./legal/refund-policy
+            - generic [ref=e1140]:
+              - heading "Address" [level=5] [ref=e1142]
+              - list [ref=e1143]:
+                - listitem [ref=e1144]:
+                  - paragraph [ref=e1145]:
+                    - link "31 D, Gulshan, Dhaka, Bangladesh" [ref=e1146] [cursor=pointer]:
+                      - /url: https://www.google.com/maps
+                - listitem [ref=e1147]:
+                  - paragraph [ref=e1148]:
+                    - link "ajoy.sayhello@gmail.com" [ref=e1149] [cursor=pointer]:
+                      - /url: mailto:ajoy.sayhello@gmail.com
+                - listitem [ref=e1150]:
+                  - paragraph [ref=e1151]:
+                    - link "000 111 352 523" [ref=e1152] [cursor=pointer]:
+                      - /url: tel:000 111 352 523
+          - paragraph [ref=e1155]: © 2026 Solune. All rights reserved.
+  - link [ref=e1159] [cursor=pointer]:
+    - /url: https://www.framer.com
+    - paragraph [ref=e1164]: Create a free website with Framer, the website builder loved by startups, designers and agencies.

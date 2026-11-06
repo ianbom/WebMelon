@@ -1,0 +1,260 @@
+- generic [active] [ref=f3e1]:
+  - link "Lewati ke konten utama" [ref=f3e2] [cursor=pointer]:
+    - /url: "#konten-utama"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "Green House Indonesia — Beranda" [ref=f3e5] [cursor=pointer]:
+        - /url: "#beranda"
+        - generic [ref=f3e6]: ghi
+        - generic [ref=f3e7]:
+          - text: Green House Indonesia
+          - generic [ref=f3e8]: PT GHI Makmur Indonesia
+      - button "Buka menu navigasi" [ref=f3e9] [cursor=pointer]
+  - main [ref=f3e12]:
+    - region [ref=f3e13]:
+      - img "Belahan Inthanon Signature dengan irisan melon di atas meja kayu" [ref=f3e14]
+      - generic [ref=f3e15]:
+        - generic [ref=f3e16]: Green House Indonesia · GHI MELON
+        - heading "Melon hidroponik, terintegrasi dari hulu ke hilir." [level=1] [ref=f3e17]
+        - paragraph [ref=f3e18]: Greenhouse, budidaya, dan pemasaran dalam satu arah pengembangan agribisnis.
+        - link "Jelajahi Produk" [ref=f3e19] [cursor=pointer]:
+          - /url: "#produk"
+          - text: Jelajahi Produk
+          - generic [aria-hidden] [ref=f3e20]: ↗
+    - generic [ref=f3e22]:
+      - generic [ref=f3e23]:
+        - generic [ref=f3e24]: Tentang perusahaan
+        - generic [ref=f3e26]:
+          - heading "Menumbuhkan pertanian. Menghubungkan hasil dengan pasar." [level=2] [ref=f3e27]
+          - paragraph [ref=f3e28]: PT GHI Makmur Indonesia mengembangkan agribisnis melon melalui greenhouse, budidaya hidroponik, penanganan pascapanen, dan pemasaran yang terintegrasi.
+          - paragraph [ref=f3e29]: Green House Indonesia menjadi identitas kegiatan greenhouse dan pertanian modern. GHI MELON hadir sebagai merek produk melon.
+      - generic [ref=f3e30]:
+        - generic [ref=f3e31]:
+          - heading "Kualitas" [level=3] [ref=f3e32]
+          - paragraph [ref=f3e33]: Mutu menjadi pertimbangan utama dari budidaya sampai pelanggan.
+        - generic [ref=f3e34]:
+          - heading "Integritas" [level=3] [ref=f3e35]
+          - paragraph [ref=f3e36]: Informasi produk, proses, dan legalitas disampaikan secara akurat.
+        - generic [ref=f3e37]:
+          - heading "Inovasi" [level=3] [ref=f3e38]
+          - paragraph [ref=f3e39]: Terbuka pada teknologi greenhouse dan perbaikan proses.
+        - generic [ref=f3e40]:
+          - heading "Kemitraan" [level=3] [ref=f3e41]
+          - paragraph [ref=f3e42]: Membangun hubungan jangka panjang dengan petani dan pembeli.
+      - generic [ref=f3e43]:
+        - group [ref=f3e44]:
+          - generic "Visi dan misi kami" [ref=f3e45] [cursor=pointer]
+        - group [ref=f3e46]:
+          - generic "Identitas dan legalitas perusahaan" [ref=f3e47] [cursor=pointer]
+    - generic [ref=f3e49]:
+      - generic [ref=f3e50]:
+        - generic [ref=f3e51]:
+          - generic [ref=f3e52]: Pilihan GHI MELON
+          - heading "Kenali pilihan melon GHI MELON." [level=2] [ref=f3e53]: Kenali pilihan melonGHI MELON.
+        - paragraph [ref=f3e54]: Enam varietas, satu katalog. Temukan produk yang ingin Anda kenali lebih dekat.
+      - generic [ref=f3e55]:
+        - img "Belahan melon Inthanon Signature dengan daging hijau muda" [ref=f3e56]
+        - generic [ref=f3e57]:
+          - generic [ref=f3e58]: Produk fokus
+          - heading "Inthanon Signature" [level=3] [ref=f3e59]
+          - paragraph [ref=f3e60]: Inthanon Signature menjadi fokus pengembangan produk melon hidroponik GHI MELON.
+          - link "Lihat Produk" [ref=f3e61] [cursor=pointer]:
+            - /url: produk/inthanon-signature.html
+            - text: Lihat Produk
+            - generic [aria-hidden] [ref=f3e62]: ↗
+      - generic [ref=f3e63]:
+        - link [ref=f3e64] [cursor=pointer]:
+          - /url: produk/dalmation.html
+          - img "Belahan dan irisan melon Dalmation berdaging krem" [ref=f3e65]
+          - generic [ref=f3e66]:
+            - heading "Dalmation" [level=3] [ref=f3e67]
+            - paragraph [ref=f3e68]: Pilihan varietas GHI MELON.
+            - generic [ref=f3e69]:
+              - text: Lihat Produk
+              - generic [aria-hidden] [ref=f3e70]: ↗
+        - link [ref=f3e71] [cursor=pointer]:
+          - /url: produk/hamiqua.html
+          - img "Irisan melon Hamiqua berdaging oranye di atas alas kayu" [ref=f3e72]
+          - generic [ref=f3e73]:
+            - heading "Hamiqua" [level=3] [ref=f3e74]
+            - paragraph [ref=f3e75]: Pilihan varietas GHI MELON.
+            - generic [ref=f3e76]:
+              - text: Lihat Produk
+              - generic [aria-hidden] [ref=f3e77]: ↗
+        - link [ref=f3e78] [cursor=pointer]:
+          - /url: produk/rock-melon.html
+          - img "Irisan Rock Melon berdaging oranye dengan kulit berjala" [ref=f3e79]
+          - generic [ref=f3e80]:
+            - heading "Rock Melon" [level=3] [ref=f3e81]
+            - paragraph [ref=f3e82]: Pilihan varietas GHI MELON.
+            - generic [ref=f3e83]:
+              - text: Lihat Produk
+              - generic [aria-hidden] [ref=f3e84]: ↗
+        - link [ref=f3e85] [cursor=pointer]:
+          - /url: produk/sweet-hamy.html
+          - img "Belahan dan irisan Sweet Hamy di dekat jendela" [ref=f3e86]
+          - generic [ref=f3e87]:
+            - heading "Sweet Hamy" [level=3] [ref=f3e88]
+            - paragraph [ref=f3e89]: Pilihan varietas GHI MELON.
+            - generic [ref=f3e90]:
+              - text: Lihat Produk
+              - generic [aria-hidden] [ref=f3e91]: ↗
+        - link [ref=f3e92] [cursor=pointer]:
+          - /url: produk/sweet-lavender.html
+          - img "Buah Sweet Lavender berkulit kuning dan berjala" [ref=f3e93]
+          - generic [ref=f3e94]:
+            - heading "Sweet Lavender" [level=3] [ref=f3e95]
+            - paragraph [ref=f3e96]: Pilihan varietas GHI MELON.
+            - generic [ref=f3e97]:
+              - text: Lihat Produk
+              - generic [aria-hidden] [ref=f3e98]: ↗
+    - generic [ref=f3e100]:
+      - generic [ref=f3e101]:
+        - generic [ref=f3e102]:
+          - generic [ref=f3e103]: Green House Indonesia
+          - heading "Dari kebutuhan lahan hingga tujuan pasar." [level=2] [ref=f3e104]: Dari kebutuhan lahanhingga tujuan pasar.
+        - paragraph [ref=f3e105]: Pendekatan terintegrasi untuk pengembangan agribisnis melon.
+      - generic [ref=f3e106]:
+        - generic [ref=f3e107]:
+          - heading "Greenhouse" [level=3] [ref=f3e111]
+          - paragraph [ref=f3e112]: Perencanaan dan pembangunan berdasarkan kebutuhan budidaya, kondisi lahan, dan target operasional.
+        - generic [ref=f3e113]:
+          - heading "Budidaya hidroponik" [level=3] [ref=f3e117]
+          - paragraph [ref=f3e118]: Perencanaan tanam, pengelolaan tanaman, dan pemantauan sebagai satu rangkaian produksi.
+        - generic [ref=f3e119]:
+          - heading "Pascapanen" [level=3] [ref=f3e123]
+          - paragraph [ref=f3e124]: Penanganan buah, sortasi, dan pencatatan hasil sebagai bagian dari pengembangan mutu.
+        - generic [ref=f3e125]:
+          - heading "Pemasaran" [level=3] [ref=f3e129]
+          - paragraph [ref=f3e130]: Pengembangan identitas produk, distribusi, dan penjajakan kerja sama dengan pembeli.
+      - group [ref=f3e132]:
+        - generic "Bagaimana proyek greenhouse direncanakan?" [ref=f3e133] [cursor=pointer]
+    - generic [ref=f3e135]:
+      - generic [ref=f3e136]:
+        - generic [ref=f3e137]:
+          - generic [ref=f3e138]: Hulu ke hilir
+          - heading "Satu rangkaian, dari rencana ke pasar." [level=2] [ref=f3e139]: Satu rangkaian,dari rencana ke pasar.
+        - paragraph [ref=f3e140]: Setiap tahap saling terhubung dalam arah pengembangan bisnis kami.
+      - list [ref=f3e141]:
+        - listitem [ref=f3e142]:
+          - heading "Perencanaan" [level=3] [ref=f3e143]
+          - paragraph [ref=f3e144]: Kebutuhan, lokasi, varietas, dan target operasional menjadi titik awal.
+        - listitem [ref=f3e145]:
+          - heading "Infrastruktur" [level=3] [ref=f3e146]
+          - paragraph [ref=f3e147]: Pengembangan greenhouse dan sistem pendukung sesuai kebutuhan proyek.
+        - listitem [ref=f3e148]:
+          - heading "Budidaya" [level=3] [ref=f3e149]
+          - paragraph [ref=f3e150]: Pengelolaan tanaman, irigasi, nutrisi, dan kondisi lingkungan.
+        - listitem [ref=f3e151]:
+          - heading "Panen & mutu" [level=3] [ref=f3e152]
+          - paragraph [ref=f3e153]: Penentuan waktu panen, penanganan buah, serta sortasi hasil.
+        - listitem [ref=f3e154]:
+          - heading "Identitas produk" [level=3] [ref=f3e155]
+          - paragraph [ref=f3e156]: Pengembangan merek, pelabelan, dan presentasi produk.
+        - listitem [ref=f3e157]:
+          - heading "Pemasaran" [level=3] [ref=f3e158]
+          - paragraph [ref=f3e159]: Menghubungkan hasil produksi dengan pembeli dan mitra distribusi.
+    - generic [ref=f3e161]:
+      - 'img "Foto tambahan Dalmation: buah utuh tanpa potongan" [ref=f3e162]'
+      - generic [ref=f3e163]:
+        - generic [ref=f3e164]: Budidaya dan mutu
+        - heading "Proses yang terencana. Perbaikan yang berkelanjutan." [level=2] [ref=f3e165]: Proses yang terencana.Perbaikan yang berkelanjutan.
+        - paragraph [ref=f3e166]: Fokus operasional diarahkan pada keteraturan proses, pemantauan tanaman, dan pencatatan untuk mendukung konsistensi mutu.
+        - list [ref=f3e167]:
+          - listitem [ref=f3e168]: ✓ Perencanaan varietas, jadwal tanam, dan kebutuhan input.
+          - listitem [ref=f3e169]: ✓ Pemantauan pertumbuhan serta kesehatan tanaman.
+          - listitem [ref=f3e170]: ✓ Penanganan panen dan evaluasi setiap siklus.
+        - group [ref=f3e171]:
+          - generic "Arah pengembangan pengendalian mutu" [ref=f3e172] [cursor=pointer]
+    - generic [ref=f3e174]:
+      - generic [ref=f3e175]:
+        - generic [ref=f3e176]:
+          - generic [ref=f3e177]: Galeri produk
+          - heading "Lebih dekat dengan pilihan kami." [level=2] [ref=f3e178]: Lebih dekat denganpilihan kami.
+        - paragraph [ref=f3e179]: Detail buah dari materi visual produk GHI MELON.
+      - generic [ref=f3e180]:
+        - figure "Irisan Hamiqua" [ref=f3e181]:
+          - 'img "Foto tambahan Hamiqua: irisan buah" [ref=f3e182]'
+        - figure "Sweet Lavender" [ref=f3e184]:
+          - img "Buah Sweet Lavender berkulit kuning dan berjala" [ref=f3e185]
+        - figure "Detail buah Sweet Hamy" [ref=f3e187]:
+          - 'img "Foto tambahan Sweet Hamy: buah utuh tanpa potongan" [ref=f3e188]'
+    - generic [ref=f3e191]:
+      - generic [ref=f3e192]:
+        - generic [ref=f3e193]: Peluang kerja sama
+        - heading "Tumbuh bersama melalui kemitraan yang jelas." [level=2] [ref=f3e194]
+        - paragraph [ref=f3e195]: Kami membuka ruang untuk menjajaki kolaborasi dengan petani, pengelola greenhouse, pemasok, pembeli, dan mitra distribusi.
+        - link "Diskusikan Kemitraan" [ref=f3e196] [cursor=pointer]:
+          - /url: https://wa.me/6285284992841?text=Halo%20Green%20House%20Indonesia%2C%20saya%20ingin%20berdiskusi%20mengenai%20peluang%20kemitraan.
+          - text: Diskusikan Kemitraan
+          - generic [aria-hidden] [ref=f3e197]: ↗
+        - generic [ref=f3e198]:
+          - generic [ref=f3e199]: Jelas
+          - generic [ref=f3e200]: Terukur
+          - generic [ref=f3e201]: Adil
+      - list [ref=f3e202]:
+        - listitem [ref=f3e203]:
+          - generic [ref=f3e204]:
+            - heading "Greenhouse & budidaya" [level=3] [ref=f3e205]
+            - paragraph [ref=f3e206]: Potensi pembangunan, pengelolaan, atau pendampingan sesuai ruang lingkup kesepakatan.
+        - listitem [ref=f3e207]:
+          - generic [ref=f3e208]:
+            - heading "Kemitraan petani" [level=3] [ref=f3e209]
+            - paragraph [ref=f3e210]: Rencana tanam dan kriteria hasil yang disepakati bersama.
+        - listitem [ref=f3e211]:
+          - generic [ref=f3e212]:
+            - heading "Pembelian & distribusi" [level=3] [ref=f3e213]
+            - paragraph [ref=f3e214]: Penjajakan pembelian hasil panen, pemasaran, dan pengembangan merek untuk kanal retail maupun horeca.
+        - listitem [ref=f3e215]:
+          - generic [ref=f3e216]:
+            - heading "Kesepakatan yang tertulis" [level=3] [ref=f3e217]
+            - paragraph [ref=f3e218]: Setiap kerja sama memerlukan kajian kelayakan serta perjanjian mengenai mutu, volume, jadwal, harga, pembayaran, dan tanggung jawab.
+    - generic [ref=f3e221]:
+      - generic [ref=f3e222]:
+        - heading "Let's grow together." [level=2] [ref=f3e223]: Let's growtogether.
+        - paragraph [ref=f3e224]: Mulai percakapan tentang produk melon, greenhouse, atau peluang kemitraan.
+        - link "Hubungi melalui WhatsApp" [ref=f3e225] [cursor=pointer]:
+          - /url: https://wa.me/6285284992841
+          - text: Hubungi melalui WhatsApp
+          - generic [aria-hidden] [ref=f3e226]: ↗
+      - generic [ref=f3e227]:
+        - generic [ref=f3e228]:
+          - heading "Telepon" [level=3] [ref=f3e229]
+          - link "0813-9875-9898" [ref=f3e230] [cursor=pointer]:
+            - /url: tel:+6281398759898
+        - generic [ref=f3e231]:
+          - heading "WhatsApp" [level=3] [ref=f3e232]
+          - link "0852-8499-2841" [ref=f3e233] [cursor=pointer]:
+            - /url: https://wa.me/6285284992841
+        - generic [ref=f3e234]:
+          - heading "Alamat Kantor" [level=3] [ref=f3e235]
+          - generic [ref=f3e236]: VIP Office, AD Premier Lantai 5 Suite 6, Jalan TB Simatupang No. 5, Ragunan, Pasar Minggu, Jakarta Selatan 12550
+  - contentinfo [ref=f3e237]:
+    - generic [ref=f3e238]:
+      - generic [ref=f3e239]:
+        - generic [ref=f3e240]:
+          - generic [ref=f3e241]: Green House IndonesiaGHI MELON
+          - paragraph [ref=f3e242]: PT GHI Makmur IndonesiaAgribisnis melon hidroponik terintegrasi.
+          - paragraph [ref=f3e243]: NIB 1009260116962
+        - generic [ref=f3e244]:
+          - heading "Jelajahi" [level=2] [ref=f3e245]
+          - navigation "Navigasi footer" [ref=f3e246]:
+            - link "Tentang perusahaan" [ref=f3e247] [cursor=pointer]:
+              - /url: "#tentang"
+            - link "Pilihan produk" [ref=f3e248] [cursor=pointer]:
+              - /url: "#produk"
+            - link "Layanan greenhouse" [ref=f3e249] [cursor=pointer]:
+              - /url: "#layanan"
+            - link "Peluang kemitraan" [ref=f3e250] [cursor=pointer]:
+              - /url: "#kemitraan"
+        - generic [ref=f3e251]:
+          - heading "Hubungi kami" [level=2] [ref=f3e252]
+          - generic [ref=f3e253]:
+            - link "0813-9875-9898" [ref=f3e254] [cursor=pointer]:
+              - /url: tel:+6281398759898
+            - 'link "WhatsApp: 0852-8499-2841" [ref=f3e255] [cursor=pointer]':
+              - /url: https://wa.me/6285284992841
+          - paragraph [ref=f3e256]: Alamat KantorVIP Office, AD Premier Lantai 5 Suite 6, Jalan TB Simatupang No. 5, Ragunan, Pasar Minggu, Jakarta Selatan 12550
+      - generic [ref=f3e257]:
+        - generic [ref=f3e258]: © 2026 PT GHI Makmur Indonesia.
+        - generic [ref=f3e259]: Greenhouse, budidaya, dan kemitraan.
