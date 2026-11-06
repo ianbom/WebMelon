@@ -1,0 +1,51 @@
+- main [ref=f328e16]:
+  - generic [ref=f328e18]:
+    - navigation "Breadcrumb" [ref=f328e19]:
+      - link "Beranda" [ref=f328e20] [cursor=pointer]:
+        - /url: index.html
+      - generic [aria-hidden] [ref=f328e21]: /
+      - generic [ref=f328e22]: Katalog Produk
+    - generic [ref=f328e23]: Green House Indonesia
+    - heading "Katalog Produk" [level=1] [ref=f328e24]
+    - paragraph [ref=f328e25]: Enam varietas GHI MELON. Kenali pilihan kami, lihat detail buah, lalu bicarakan kebutuhan Anda.
+  - generic [ref=f328e27]:
+    - generic [ref=f328e28]:
+      - generic [ref=f328e29]:
+        - generic [ref=f328e30]: Pilihan GHI MELON
+        - heading "Kenali pilihan melon GHI MELON." [level=2] [ref=f328e31]: Kenali pilihan melonGHI MELON.
+      - paragraph [ref=f328e32]: Enam varietas, satu katalog. Temukan produk yang ingin Anda kenali lebih dekat.
+    - generic [ref=f328e33]:
+      - img "Belahan melon Inthanon Signature dengan daging hijau muda" [ref=f328e34]
+      - generic [ref=f328e35]:
+        - generic [ref=f328e36]: Produk fokus
+        - heading "Inthanon Signature" [level=3] [ref=f328e37]
+        - paragraph [ref=f328e38]: Inthanon Signature menjadi fokus pengembangan produk melon hidroponik GHI MELON.
+        - link "Lihat Produk" [ref=f328e39] [cursor=pointer]:
+          - /url: produk/inthanon-signature.html
+    - generic [ref=f328e41]:
+      - link "Belahan dan irisan melon Dalmation berdaging krem Dalmation Pilihan varietas GHI MELON. Lihat Produk" [ref=f328e42] [cursor=pointer]:
+        - /url: produk/dalmation.html
+        - img "Belahan dan irisan melon Dalmation berdaging krem" [ref=f328e43]
+        - generic [ref=f328e44]
+      - link "Irisan melon Hamiqua berdaging oranye di atas alas kayu Hamiqua Pilihan varietas GHI MELON. Lihat Produk" [ref=f328e49] [cursor=pointer]:
+        - /url: produk/hamiqua.html
+        - img "Irisan melon Hamiqua berdaging oranye di atas alas kayu" [ref=f328e50]
+        - generic [ref=f328e51]
+      - link "Irisan Rock Melon berdaging oranye dengan kulit berjala Rock Melon Pilihan varietas GHI MELON. Lihat Produk" [ref=f328e56] [cursor=pointer]:
+        - /url: produk/rock-melon.html
+        - img "Irisan Rock Melon berdaging oranye dengan kulit berjala" [ref=f328e57]
+        - generic [ref=f328e58]
+      - link "Belahan dan irisan Sweet Hamy di dekat jendela Sweet Hamy Pilihan varietas GHI MELON. Lihat Produk" [ref=f328e63] [cursor=pointer]:
+        - /url: produk/sweet-hamy.html
+        - img "Belahan dan irisan Sweet Hamy di dekat jendela" [ref=f328e64]
+        - generic [ref=f328e65]
+      - link "Buah Sweet Lavender berkulit kuning dan berjala Sweet Lavender Pilihan varietas GHI MELON. Lihat Produk" [ref=f328e70] [cursor=pointer]:
+        - /url: produk/sweet-lavender.html
+        - img "Buah Sweet Lavender berkulit kuning dan berjala" [ref=f328e71]
+        - generic [ref=f328e72]
+  - generic [ref=f328e78]:
+    - heading "Sudah menemukan pilihan Anda?" [level=2] [ref=f328e79]
+    - link "Bicarakan Kebutuhan Anda" [ref=f328e80] [cursor=pointer]:
+      - /url: kontak.html
+      - text: Bicarakan Kebutuhan Anda
+      - generic [aria-hidden] [ref=f328e81]: ↗

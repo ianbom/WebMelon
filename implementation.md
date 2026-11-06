@@ -4,7 +4,7 @@
 **Tujuan:** Website company profile sekaligus katalog produk melon.  
 **Teknologi:** HTML5 semantik, CSS native, JavaScript vanilla.  
 **Referensi desain:** https://solune.framer.website/  
-**Status:** Implementasi lokal tersedia: beranda dan enam detail produk, HTML/CSS/JavaScript native. Hasil uji tercatat pada bagian 14. Belum dipublikasikan/deploy.
+**Status:** Implementasi lokal tersedia: beranda, katalog, tentang kami, kontak, dan enam detail produk (sepuluh HTML), menggunakan HTML/CSS/JavaScript native. Riwayat implementasi awal tercatat pada bagian 14; perluasan tiga halaman pada bagian 15. Belum dipublikasikan/deploy.
 
 ## 1. Konteks dan Ruang Lingkup
 
@@ -17,7 +17,7 @@ Prioritas:
 4. Header, konten utama, dan footer terpisah secara semantik dan visual.
 5. Website ringan, responsif, mudah diperbarui, dan tetap berguna tanpa JavaScript.
 
-Hasil website yang direncanakan: **satu beranda dan enam halaman detail produk**. Beranda sekaligus berfungsi sebagai katalog; tidak perlu halaman katalog kedua yang mengulang enam varietas.
+Cakupan terbaru atas permintaan pengguna: **satu beranda, tiga halaman mandiri (katalog produk, tentang kami, kontak), dan enam detail produk**. Bagian produk/profil/kontak pada beranda tetap tersedia; navigasi umum menuju halaman mandiri.
 
 Tidak termasuk: transaksi online, keranjang, checkout, pembayaran, akun, stok real-time, dashboard admin, database, CMS, newsletter, blog, backend formulir, atau deployment otomatis. Penyusunan dokumen dilanjutkan menjadi implementasi website atas permintaan pengguna. Deployment tetap di luar cakupan.
 
@@ -299,12 +299,14 @@ Inthanon dapat memakai satu gambar; jangan menggandakan gambar h.7 dan h.8 yang 
 
 Semua halaman mempunyai landmark `<header>`, `<main id="konten-utama">`, dan `<footer>` yang terpisah. Header/footer bukan bagian dari carousel atau konten produk.
 
-Untuk tujuh HTML, gunakan markup header/footer langsung pada tiap halaman dengan class dan susunan konsisten. CSS dan JavaScript digunakan bersama. Ini sengaja menghindari build system atau runtime fetch hanya untuk memuat navigasi/footer. Bila jumlah halaman atau frekuensi pembaruan meningkat besar, pertimbangkan template build-time pada tugas terpisah.
+Untuk sepuluh HTML, gunakan markup header/footer langsung pada tiap halaman dengan class dan susunan konsisten. CSS dan JavaScript digunakan bersama. Ini sengaja menghindari build system atau runtime fetch hanya untuk memuat navigasi/footer. Bila jumlah halaman atau frekuensi pembaruan meningkat besar, pertimbangkan template build-time pada tugas terpisah.
 
 ### 8.2 Navigasi
 
 - Skip link **Lewati ke konten utama**.
-- Beranda memakai anchor section; detail memakai `../index.html#tentang`, `../index.html#produk`, dan seterusnya.
+- Tentang/Produk/Hubungi Kami menuju `tentang.html`/`katalog.html`/`kontak.html`; dari detail memakai prefix `../`. Footer mengikuti tujuan yang sama. Breadcrumb Produk dan Kembali ke katalog menuju `../katalog.html`.
+- Layanan/Kemitraan tetap anchor beranda: `#layanan`/`#kemitraan` di beranda, `index.html#layanan`/`index.html#kemitraan` pada root lain, prefix `../` dari detail. Seluruh ID section beranda lama dipertahankan.
+- `aria-current="page"` navbar hanya pada halaman mandiri yang sedang dibuka, bukan katalog saat membuka detail. Pembuka halaman memiliki breadcrumb, H1, serta pengantar pada panel hijau pucat.
 - Navbar fixed dengan offset atas; section memiliki `scroll-margin-top` agar judul tidak tertutup.
 - Menu seluler memakai tombol dengan nama aksesibel, `aria-controls`, dan `aria-expanded`.
 - Menu merupakan disclosure nonmodal; tidak perlu focus trap.
@@ -337,6 +339,9 @@ Hover/focus cukup transisi ringan sekitar 150–250ms. Animasi muncul saat scrol
 Melon/
 ├── implementation.md
 ├── index.html
+├── katalog.html
+├── tentang.html
+├── kontak.html
 ├── produk/
 │   ├── inthanon-signature.html
 │   ├── dalmation.html
@@ -366,13 +371,16 @@ Melon/
 
 Tanggung jawab:
 
-- `index.html`: company profile dan katalog lengkap dengan konten inti dalam HTML.
+- `index.html`: company profile dan bagian katalog lengkap dengan konten inti dalam HTML.
+- `katalog.html`: pembuka editorial, Inthanon unggulan, lima kartu varietas, CTA kontak.
+- `tentang.html`: profil, pembedaan tiga identitas, nilai, visi/misi, legalitas, foto editorial melon, CTA katalog/kemitraan.
+- `kontak.html`: telepon, WhatsApp, alamat kantor, jalur percakapan produk dan kemitraan; tanpa form atau peta rekaan.
 - `produk/*.html`: detail statis, bisa dibuka langsung dan diindeks.
 - `styles.css`: token, tipografi, header/footer, layout section, kartu, galeri, breakpoint, reduced motion.
 - `main.js`: disclosure navigasi dan peningkatan galeri; dimuat dengan `defer`.
 - `assets/images/`: salinan turunan teroptimasi, bukan pengganti master.
 
-Gunakan nama file turunan lowercase dengan tanda hubung. Referensi aset dari beranda memakai `assets/...`; dari halaman produk memakai `../assets/...`. Hindari path absolut `/assets/...` agar situs tetap berjalan pada hosting subfolder. Tidak perlu JSON katalog dan renderer client-side untuk enam halaman statis.
+Gunakan nama file turunan lowercase dengan tanda hubung. Referensi aset dari seluruh halaman root memakai `assets/...`; dari halaman produk memakai `../assets/...`. Hindari path absolut `/assets/...` agar situs tetap berjalan pada hosting subfolder. Tidak perlu JSON katalog dan renderer client-side untuk enam halaman statis.
 
 Saat hosting dipersiapkan, publikasikan hanya file website yang diperlukan. Folder master `Product/`, PDF asli, dokumen internal dan cache pemeriksaan tidak otomatis ikut dipublikasikan.
 
@@ -552,7 +560,9 @@ Hal berikut tidak menghalangi penyusunan rancangan, tetapi harus diselesaikan se
 
 **Hasil akhir yang dituju:** website bernuansa editorial-natural seperti Solune, dengan identitas Green House Indonesia dan katalog enam varietas GHI MELON; faktual, responsif, ringan, dan mengarahkan pertanyaan bisnis ke kontak perusahaan.
 
-## 14. Hasil Implementasi Lokal — 6 November 2026
+## 14. Riwayat Implementasi Awal — 6 November 2026
+
+Bagian ini mencatat tahap awal tujuh HTML. Angka uji di bawah adalah riwayat, bukan hasil pengujian penambahan tiga halaman; cakupan terbaru ada pada bagian 15.
 
 ### 14.1 Berkas dan keputusan implementasi
 
@@ -622,4 +632,38 @@ Pembangunan lokal selesai; checklist bagian12 tetap merupakan daftar penerimaan 
 
 Belum ada deployment, domain/canonical/sitemap produksi, verifikasi registri legal independen, atau pengiriman pesan WhatsApp. Hanya tautan native yang disiapkan. Konfirmasi komersial dan izin publikasi tetap mengikuti bagian13.
 
-Saat deployment disetujui, unggah **hanya** `index.html`, `produk/*.html`, dan `assets/` yang diperlukan. Jangan unggah `Product/`, PDF, `.work/`, `tests/`, screenshot, atau dokumen internal. Server Python ini adalah preview, bukan server produksi.
+Saat deployment disetujui, unggah **hanya** `index.html`, `katalog.html`, `tentang.html`, `kontak.html`, `produk/*.html`, dan `assets/` yang diperlukan. Jangan unggah `Product/`, PDF, `.work/`, `tests/`, screenshot, atau dokumen internal. Server Python ini adalah preview, bukan server produksi.
+
+## 15. Perluasan Tiga Halaman — 6 November 2026
+
+### 15.1 Cakupan terbaru
+
+Tersedia sepuluh HTML: beranda, `katalog.html`, `tentang.html`, `kontak.html`, dan enam detail produk. Ketiga halaman baru menggunakan pembuka editorial hijau pucat, heading serif, navbar kapsul, komponen serta foto terverifikasi yang sama. Tidak ada dependency atau JavaScript aplikasi baru. Header/footer tetap langsung di HTML; pembaruan bersama harus disinkronkan manual.
+
+Navigasi umum, hero Jelajahi Produk, footer, breadcrumb detail dan Kembali ke katalog sudah diarahkan ke halaman mandiri. Layanan/Kemitraan tetap menuju section beranda. Section lama dan galeri detail dipertahankan. Halaman kontak membedakan telepon/WhatsApp serta menyebut Alamat Kantor; tidak ada form, peta, harga, stok atau klaim komersial baru.
+
+### 15.2 Hasil pengujian perluasan
+
+| Pemeriksaan | Hasil aktual |
+|---|---|
+| Kontrak Python | RED: tiga halaman belum ada; GREEN:10 halaman, metadata/landmark, enam varietas, navigasi/current page, path/aset/fragment/case/kontak. Entri manifest sumber cocok. |
+| JavaScript | `node --check assets/js/main.js` exit0; berkas aplikasi tidak berubah. |
+| Browser responsive | PASS50 kombinasi sepuluh halaman ×360/390/768/1024/1440px; tidak ada overflow atau target tampil di bawah44×44px. |
+| Tanpa JavaScript | PASS10 halaman; navigasi dan foto galeri tersedia;57 elemen gambar berhasil decode. |
+| Navigasi | PASS beranda ke tiga halaman, reload, katalog ke enam detail, breadcrumb/return, nav detail ke Tentang/Kontak, Layanan/Kemitraan ke anchor beranda. |
+| Menu/galeri | PASS Enter/Space/Escape, fokus luar header, wordmark, resize fokus, menu halaman aktif, thumbnail/reload dan reduced motion. |
+| Fokus kontak aktif | RED: outline status aktif menimpa focus-visible; GREEN setelah selector status dibatasi `:not(:focus-visible)`. Regresi browser disertakan; screenshot fokus ditinjau. |
+| Subfolder | PASS `/Melon/`: tiga halaman baru direct/reload, gambar, tautan katalog, Dalmation/detail/reload/breadcrumb return. |
+| Visual/semantik | Enam screenshot halaman baru390/1440 ditinjau; pembuka/konten/CTA/footer dan alamat terbaca. Accessibility snapshot ketiga halaman dibaca; kedua disclosure Tentang dibuka dengan Enter. Kontras teks pengantar terhadap panel computed6,46:1. |
+| Error selama suite | Tidak ada pageerror atau responsHTTP≥400. |
+| Kontras | Overlay/kartu tidak berubah. Pemeriksaan34 persegi pada capture tahap awal tetap PASS; bukan pengukuran baru halaman mandiri atau sertifikasi WCAG. |
+
+Satu run browser setelah penambahan pemeriksaan fokus sempat timeout: fokus yang ditinggalkan pengujian mempertahankan menu mobile terbuka ketika resize, lalu toggle justru menutupnya. Test mengakhiri pemeriksaan fokus sebelum skenario menu berikutnya; suite lengkap berikutnya PASS50. Bukan perubahan perilaku menu aplikasi.
+
+Review akhir independen tidak menemukan defect runtime; dua celah pemeriksaan diperbaiki: tujuan diperiksa terpisah dalam header/footer/breadcrumb/return, serta geometri pembuka diperiksa pada seluruh viewport JS dan390/1440 tanpa JS. Mutation navbar salah dan padding pembuka nol menghasilkan RED; sumber aktual GREEN. Suite final Python10, sintaks Node, browser50/no-JS10/57decode PASS. Reviewer tidak menjalankan browser atau mengaudit ulang master; hasil runtime berasal dari pengujian lokal di atas. Minor ditunda: skenario subfolder masih pengujian inline, belum bagian suite tersimpan.
+
+### 15.3 Preview dan batas
+
+Preview lokal: `http://127.0.0.1:8000/katalog.html`, `http://127.0.0.1:8000/tentang.html`, `http://127.0.0.1:8000/kontak.html`; server parent8001 dipakai hanya untuk uji subfolder. Tidak ada deployment, Artifact, Git/commit, perubahan master PDF/Product, atau pengiriman WhatsApp.
+
+Lighthouse/CWV, screen reader nyata, browser selain Chromium dan persetujuan komersial/publikasi belum diuji/diselesaikan. Manifest audit masih opsional dan tidak diuji kelengkapannya; output kini hanya menyatakan entri yang diperiksa, atau manifest tidak tersedia, bukan klaim integritas penuh tanpa bukti. `.work/` dipertahankan sebagai bukti lokal karena tidak ada riwayat Git; jangan ikut dipublikasikan. Helper authoring bukan build rutin dan tidak boleh dijalankan ulang sembarangan.

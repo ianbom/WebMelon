@@ -1,0 +1,117 @@
+- generic [active] [ref=f130e1]:
+  - link "Lewati ke konten utama" [ref=f130e2] [cursor=pointer]:
+    - /url: "#konten-utama"
+  - banner [ref=f130e3]:
+    - generic [ref=f130e4]:
+      - link "Green House Indonesia — Beranda" [ref=f130e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f130e6]: ghi
+        - generic [ref=f130e7]:
+          - text: Green House Indonesia
+          - generic [ref=f130e8]: PT GHI Makmur Indonesia
+      - navigation "Navigasi utama" [ref=f130e9]:
+        - link "Tentang" [ref=f130e10] [cursor=pointer]:
+          - /url: tentang.html
+        - link "Produk" [ref=f130e11] [cursor=pointer]:
+          - /url: katalog.html
+        - link "Layanan" [ref=f130e12] [cursor=pointer]:
+          - /url: index.html#layanan
+        - link "Kemitraan" [ref=f130e13] [cursor=pointer]:
+          - /url: index.html#kemitraan
+        - link "Hubungi Kami" [ref=f130e14] [cursor=pointer]:
+          - /url: kontak.html
+          - text: Hubungi Kami
+          - generic [aria-hidden] [ref=f130e15]: ↗
+  - main [ref=f130e16]:
+    - generic [ref=f130e18]:
+      - navigation "Breadcrumb" [ref=f130e19]:
+        - link "Beranda" [ref=f130e20] [cursor=pointer]:
+          - /url: index.html
+        - generic [aria-hidden] [ref=f130e21]: /
+        - generic [ref=f130e22]: Tentang Kami
+      - generic [ref=f130e23]: Green House Indonesia
+      - heading "Tentang Kami" [level=1] [ref=f130e24]
+      - paragraph [ref=f130e25]: Mengenal perusahaan di balik Green House Indonesia dan GHI MELON, dari arah pengembangan hingga nilai yang kami pegang.
+    - generic [ref=f130e27]:
+      - generic [ref=f130e28]:
+        - generic [ref=f130e29]: Tentang perusahaan
+        - generic [ref=f130e31]:
+          - heading "Menumbuhkan pertanian. Menghubungkan hasil dengan pasar." [level=2] [ref=f130e32]
+          - paragraph [ref=f130e33]: PT GHI Makmur Indonesia mengembangkan agribisnis melon melalui greenhouse, budidaya hidroponik, penanganan pascapanen, dan pemasaran yang terintegrasi.
+          - paragraph [ref=f130e34]: Green House Indonesia menjadi identitas kegiatan greenhouse dan pertanian modern. GHI MELON hadir sebagai merek produk melon.
+      - generic [ref=f130e35]:
+        - generic [ref=f130e36]:
+          - heading "PT GHI Makmur Indonesia" [level=3] [ref=f130e37]
+          - paragraph [ref=f130e38]: Badan usaha yang mengembangkan agribisnis melon terintegrasi.
+        - generic [ref=f130e39]:
+          - heading "Green House Indonesia" [level=3] [ref=f130e40]
+          - paragraph [ref=f130e41]: Identitas kegiatan greenhouse dan pertanian modern.
+        - generic [ref=f130e42]:
+          - heading "GHI MELON" [level=3] [ref=f130e43]
+          - paragraph [ref=f130e44]: Merek produk melon, dengan Inthanon Signature sebagai produk fokus.
+      - generic [ref=f130e45]:
+        - generic [ref=f130e46]:
+          - heading "Kualitas" [level=3] [ref=f130e47]
+          - paragraph [ref=f130e48]: Mutu menjadi pertimbangan utama dari budidaya sampai pelanggan.
+        - generic [ref=f130e49]:
+          - heading "Integritas" [level=3] [ref=f130e50]
+          - paragraph [ref=f130e51]: Informasi produk, proses, dan legalitas disampaikan secara akurat.
+        - generic [ref=f130e52]:
+          - heading "Inovasi" [level=3] [ref=f130e53]
+          - paragraph [ref=f130e54]: Terbuka pada teknologi greenhouse dan perbaikan proses.
+        - generic [ref=f130e55]:
+          - heading "Kemitraan" [level=3] [ref=f130e56]
+          - paragraph [ref=f130e57]: Membangun hubungan jangka panjang dengan petani dan pembeli.
+      - generic [ref=f130e58]:
+        - group [ref=f130e59]:
+          - generic "Visi dan misi kami" [ref=f130e60] [cursor=pointer]
+        - group [ref=f130e61]:
+          - generic "Identitas dan legalitas perusahaan" [ref=f130e62] [cursor=pointer]
+    - generic [ref=f130e64]:
+      - img "Belahan melon Inthanon Signature dengan daging hijau muda" [ref=f130e65]
+      - generic [ref=f130e66]:
+        - generic [ref=f130e67]: Dari hulu ke hilir
+        - heading "Budidaya dan pasar, dalam satu arah." [level=2] [ref=f130e68]: Budidaya dan pasar,dalam satu arah.
+        - paragraph [ref=f130e69]: Greenhouse, budidaya hidroponik, penanganan pascapanen, dan pemasaran menjadi bagian dari pengembangan agribisnis kami.
+        - paragraph [ref=f130e70]: Kenali pilihan varietas yang diperkenalkan melalui merek GHI MELON.
+        - link "Jelajahi katalog" [ref=f130e71] [cursor=pointer]:
+          - /url: katalog.html
+          - text: Jelajahi katalog
+          - generic [aria-hidden] [ref=f130e72]: ↗
+    - generic [ref=f130e74]:
+      - heading "Tumbuh bersama melalui kemitraan." [level=2] [ref=f130e75]
+      - link "Diskusikan Kemitraan" [ref=f130e76] [cursor=pointer]:
+        - /url: https://wa.me/6285284992841?text=Halo%20Green%20House%20Indonesia%2C%20saya%20ingin%20berdiskusi%20mengenai%20peluang%20kemitraan.
+        - text: Diskusikan Kemitraan
+        - generic [aria-hidden] [ref=f130e77]: ↗
+  - contentinfo [ref=f130e78]:
+    - generic [ref=f130e79]:
+      - generic [ref=f130e80]:
+        - generic [ref=f130e81]:
+          - generic [ref=f130e82]: Green House IndonesiaGHI MELON
+          - paragraph [ref=f130e83]: PT GHI Makmur IndonesiaAgribisnis melon hidroponik terintegrasi.
+          - paragraph [ref=f130e84]: NIB 1009260116962
+        - generic [ref=f130e85]:
+          - heading "Jelajahi" [level=2] [ref=f130e86]
+          - navigation "Navigasi footer" [ref=f130e87]:
+            - link "Tentang perusahaan" [ref=f130e88] [cursor=pointer]:
+              - /url: tentang.html
+            - link "Pilihan produk" [ref=f130e89] [cursor=pointer]:
+              - /url: katalog.html
+            - link "Layanan greenhouse" [ref=f130e90] [cursor=pointer]:
+              - /url: index.html#layanan
+            - link "Peluang kemitraan" [ref=f130e91] [cursor=pointer]:
+              - /url: index.html#kemitraan
+        - generic [ref=f130e92]:
+          - heading "Hubungi kami" [level=2] [ref=f130e93]
+          - generic [ref=f130e94]:
+            - link "Halaman kontak" [ref=f130e95] [cursor=pointer]:
+              - /url: kontak.html
+            - link "0813-9875-9898" [ref=f130e96] [cursor=pointer]:
+              - /url: tel:+6281398759898
+            - 'link "WhatsApp: 0852-8499-2841" [ref=f130e97] [cursor=pointer]':
+              - /url: https://wa.me/6285284992841
+          - paragraph [ref=f130e98]: Alamat KantorVIP Office, AD Premier Lantai 5 Suite 6, Jalan TB Simatupang No. 5, Ragunan, Pasar Minggu, Jakarta Selatan 12550
+      - generic [ref=f130e99]:
+        - generic [ref=f130e100]: © 2026 PT GHI Makmur Indonesia.
+        - generic [ref=f130e101]: Greenhouse, budidaya, dan kemitraan.
