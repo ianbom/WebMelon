@@ -1,1 +1,1 @@
-scp -P 22 -r .\produk inventr1@beragam.kreasi.org:/home/inventr1/melon.app-webcare.my.id/
+scp -P 22 -r .\index.html .\katalog.html .\tentang.html .\kontak.html .\produk .\assets inventr1@beragam.kreasi.org:/home/inventr1/melon.app-webcare.my.id/

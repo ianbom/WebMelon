@@ -64,12 +64,28 @@ async (page) => {
   if (await toggle.getAttribute('aria-expanded') !== 'false') throw Error('Escape outside header');
   await toggle.click(); await page.locator('.wordmark').click();
   if (await toggle.getAttribute('aria-expanded') !== 'false') throw Error('Wordmark leaves menu open');
-  await page.goto('http://127.0.0.1:8000/produk/dalmation.html');
-  const thumb = page.locator('[data-gallery-thumb]').nth(1);
-  await thumb.focus(); await page.keyboard.press('Space');
-  if (await thumb.getAttribute('aria-pressed') !== 'true' || !await page.locator('#foto-detail').isVisible() || await page.locator('#foto-utama').isVisible()) throw Error('Gallery selection');
-  await page.reload();
-  if (!await page.locator('#foto-utama').isVisible()) throw Error('Gallery reload');
+  for (const width of [390, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    for (const slug of ['dalmation', 'rock-melon', 'sweet-hamy', 'sweet-lavender']) {
+      await page.goto(`http://127.0.0.1:8000/produk/${slug}.html`);
+      const thumbs = page.locator('[data-gallery-thumb]');
+      const firstId = await thumbs.first().getAttribute('data-image');
+      for (const thumb of await thumbs.all()) {
+        const id = await thumb.getAttribute('data-image');
+        await thumb.focus(); await page.keyboard.press('Enter');
+        if (await thumb.getAttribute('aria-pressed') !== 'true' || !await page.locator(`#${id}`).isVisible() || await page.locator('[data-gallery-image]:visible').count() !== 1) throw Error(`Gallery selection: ${slug} ${id}`);
+        await page.locator(`#${id} img`).evaluate(image => image.decode());
+        if (!await page.locator(`#${id} img`).evaluate(image => image.naturalWidth > 0)) throw Error(`Broken photo: ${slug} ${id}`);
+        const label = await thumb.getAttribute('aria-label');
+        if (await page.locator('[data-gallery-status]').textContent() !== label.replace('Tampilkan ', '')) throw Error(`Gallery status: ${slug} ${id}`);
+      }
+      if (!await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)) throw Error(`Gallery overflow: ${slug} ${width}`);
+      const widths = await thumbs.evaluateAll(buttons => buttons.map(button => button.getBoundingClientRect().width));
+      if (widths.some(width => width < 79)) throw Error(`Shrinking thumbnails: ${slug}`);
+      await page.reload();
+      if (!await page.locator(`#${firstId}`).isVisible()) throw Error(`Gallery reload: ${slug}`);
+    }
+  }
   await page.emulateMedia({ reducedMotion: 'reduce' });
   if (await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior) !== 'auto') throw Error('Reduced motion');
   await page.emulateMedia({ reducedMotion: 'no-preference' });

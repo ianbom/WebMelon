@@ -161,8 +161,8 @@ details li+li{margin-top:8px}
 .gallery-ready .gallery-frames{height:470px;display:grid;place-items:center;background:var(--panel);border-radius:var(--radius)}
 .gallery-ready .gallery-frame{width:100%;height:100%;display:grid;place-items:center}
 .gallery-ready .gallery-frame img{width:100%;height:100%;max-height:470px;object-fit:contain}
-.gallery-thumbs{display:flex;gap:12px;margin-top:16px}
-.gallery-thumbs button{border:2px solid transparent;background:var(--panel);padding:4px;width:80px;height:80px;border-radius:12px;overflow:hidden}
+.gallery-thumbs{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+.gallery-thumbs button{border:2px solid transparent;background:var(--panel);padding:4px;width:80px;height:80px;flex-shrink:0;border-radius:12px;overflow:hidden}
 .gallery-thumbs button[aria-pressed='true']{border-color:var(--ink)}
 .gallery-thumbs img{width:100%;height:100%;object-fit:cover;border-radius:7px}
 .related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}

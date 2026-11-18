@@ -34,7 +34,8 @@ def check():
         assert title not in titles and description not in descriptions, 'Metadata must be unique'
         titles.add(title); descriptions.add(description)
         links = [a['href'] for t,a in page.nodes if t=='a']
-        assert 'tel:+6281398759898' in links
+        if path.name in ('index.html', 'kontak.html'):
+            assert 'tel:+6281398759898' in links
         wa = [urlsplit(x) for x in links if x.startswith('https://wa.me/')]
         assert wa and all(x.path=='/6285284992841' for x in wa)
         if path.parent.name=='produk':
@@ -49,6 +50,7 @@ def check():
         raw = path.read_text(encoding='utf-8')
         nav = Page(path, raw.split('id="navigasi-utama"', 1)[1].split('</nav>', 1)[0].split('>', 1)[1])
         footer = Page(path, raw.split('<footer', 1)[1].split('</footer>', 1)[0].split('>', 1)[1])
+        assert not any(a.get('href') == 'tel:+6281398759898' for _,a in footer.nodes), f'{path.name}: removed footer phone'
         for landmark, fragment in (('header', nav), ('footer', footer)):
             destinations = {a.get('href') for t,a in fragment.nodes if t == 'a'}
             for destination in ('tentang.html', 'katalog.html', 'kontak.html'):
